@@ -1,0 +1,373 @@
+2022-03-23 22:07:06,793 INFO [main] h.j.p.m.Main [Main.java:29] Program pokrenut!
+2022-03-23 22:07:11,164 ERROR [main] h.j.p.m.Main [Main.java:46] Došlo je do ponovnog unosa iste kategorije.
+hr.java.production.exception.DuplicateCategoryException: Unešena kategorija koja već postoji!!!
+	at hr.java.production.main.Main.unosKategorija(Main.java:262)
+	at hr.java.production.main.Main.main(Main.java:42)
+2022-03-23 22:07:15,850 ERROR [main] h.j.p.m.Main [Main.java:51] Pogreška prilikom unosa imena kategorije.
+hr.java.production.exception.InvalidNameException: 
+Ime kategorije je prazno!
+	at hr.java.production.main.Main.unosKategorija(Main.java:253)
+	at hr.java.production.main.Main.main(Main.java:42)
+2022-03-23 22:07:16,881 ERROR [main] h.j.p.m.Main [Main.java:51] Pogreška prilikom unosa imena kategorije.
+hr.java.production.exception.InvalidNameException: 
+Ime kategorije je prazno!
+	at hr.java.production.main.Main.unosKategorija(Main.java:253)
+	at hr.java.production.main.Main.main(Main.java:42)
+2022-03-23 22:07:18,959 ERROR [main] h.j.p.m.Main [Main.java:46] Došlo je do ponovnog unosa iste kategorije.
+hr.java.production.exception.DuplicateCategoryException: Unešena kategorija koja već postoji!!!
+	at hr.java.production.main.Main.unosKategorija(Main.java:262)
+	at hr.java.production.main.Main.main(Main.java:42)
+2022-03-23 22:07:20,593 INFO [main] h.j.p.m.Main [Main.java:56] Završen unos kategorija!
+2022-03-23 22:07:41,339 ERROR [main] h.j.p.m.Main [Main.java:487] Pogrešno unesen garantni rok laptopa.
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at hr.java.production.main.Main.unosArtikala(Main.java:482)
+	at hr.java.production.main.Main.main(Main.java:64)
+2022-03-23 22:07:57,517 INFO [main] h.j.p.m.Main [Main.java:67] Završen unos artikala!
+2022-03-23 22:08:12,091 ERROR [main] h.j.p.m.Main [Main.java:606] Ponovo odabran isti artikl tvornice
+hr.java.production.exception.DuplicateItemException: Dogodila se pogreška u radu programa!
+	at hr.java.production.main.Main.unosTvornica(Main.java:592)
+	at hr.java.production.main.Main.main(Main.java:75)
+2022-03-23 22:08:24,845 INFO [main] h.j.p.m.Main [Main.java:78] Završen unos tvornica!
+2022-03-23 22:08:32,734 ERROR [main] h.j.p.m.Main [Main.java:636] Pogrešno unesen format web adresa trgovine.
+java.net.MalformedURLException: no protocol: vger
+	at java.base/java.net.URL.<init>(URL.java:674)
+	at java.base/java.net.URL.<init>(URL.java:569)
+	at java.base/java.net.URL.<init>(URL.java:516)
+	at hr.java.production.main.Main.unosTrgovina(Main.java:628)
+	at hr.java.production.main.Main.main(Main.java:86)
+2022-03-23 22:08:59,210 ERROR [main] h.j.p.m.Main [Main.java:715] Ponovo izabran isti artikl trgovine.
+hr.java.production.exception.DuplicateItemException: Odabran isti artikl!!!
+	at hr.java.production.main.Main.unosTrgovina(Main.java:701)
+	at hr.java.production.main.Main.main(Main.java:86)
+2022-03-23 22:09:02,834 INFO [main] h.j.p.m.Main [Main.java:89] Završen unos tvornica!
+2022-03-23 22:09:02,835 INFO [main] h.j.p.m.Main [Main.java:91] Početak ispisa podataka.
+2022-03-23 22:09:02,889 INFO [main] h.j.p.m.Main [Main.java:213] 
+KRAJ PROGRAMA!
+2022-03-24 13:20:39,963 INFO [main] h.j.p.m.Main [Main.java:41] PROGRAM POKRENUT!
+2022-03-24 13:20:42,777 INFO [main] h.j.p.m.Main [Main.java:68] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-24 13:21:03,738 INFO [main] h.j.p.m.Main [Main.java:79] ZAVRŠEN UNOS ARTIKALA!
+2022-03-24 13:22:46,306 INFO [main] h.j.p.m.Main [Main.java:41] PROGRAM POKRENUT!
+2022-03-24 13:22:49,724 INFO [main] h.j.p.m.Main [Main.java:68] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-24 13:24:09,319 INFO [main] h.j.p.m.Main [Main.java:41] PROGRAM POKRENUT!
+2022-03-24 13:24:11,944 INFO [main] h.j.p.m.Main [Main.java:68] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-24 13:25:27,264 INFO [main] h.j.p.m.Main [Main.java:41] PROGRAM POKRENUT!
+2022-03-24 13:25:31,362 INFO [main] h.j.p.m.Main [Main.java:68] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-24 13:27:17,607 INFO [main] h.j.p.m.Main [Main.java:41] PROGRAM POKRENUT!
+2022-03-24 13:27:20,963 INFO [main] h.j.p.m.Main [Main.java:68] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-24 13:28:48,667 INFO [main] h.j.p.m.Main [Main.java:42] PROGRAM POKRENUT!
+2022-03-24 13:28:52,961 INFO [main] h.j.p.m.Main [Main.java:69] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-24 13:39:53,208 INFO [main] h.j.p.m.Main [Main.java:42] PROGRAM POKRENUT!
+2022-03-24 13:39:55,945 INFO [main] h.j.p.m.Main [Main.java:69] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-24 13:41:17,386 INFO [main] h.j.p.m.Main [Main.java:42] PROGRAM POKRENUT!
+2022-03-24 13:41:20,162 INFO [main] h.j.p.m.Main [Main.java:69] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-24 13:53:28,580 INFO [main] h.j.p.m.Main [Main.java:42] PROGRAM POKRENUT!
+2022-03-24 13:53:35,384 INFO [main] h.j.p.m.Main [Main.java:69] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-24 13:56:37,844 INFO [main] h.j.p.m.Main [Main.java:42] PROGRAM POKRENUT!
+2022-03-24 13:56:41,862 ERROR [main] h.j.p.m.Main [Main.java:59] Došlo je do ponovnog unosa iste kategorije.
+hr.java.production.exception.DuplicateCategoryException: Unesena kategorija koja već postoji!!!
+	at hr.java.production.main.Main.unosKategorija(Main.java:292)
+	at hr.java.production.main.Main.main(Main.java:55)
+2022-03-24 13:56:44,264 INFO [main] h.j.p.m.Main [Main.java:69] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-24 13:57:33,731 INFO [main] h.j.p.m.Main [Main.java:42] PROGRAM POKRENUT!
+2022-03-24 13:57:36,338 ERROR [main] h.j.p.m.Main [Main.java:64] Pogreška prilikom unosa imena kategorije.
+hr.java.production.exception.InvalidNameException: 
+Ime kategorije je prazno!
+	at hr.java.production.main.Main.unosKategorija(Main.java:282)
+	at hr.java.production.main.Main.main(Main.java:55)
+2022-03-24 13:57:37,942 INFO [main] h.j.p.m.Main [Main.java:69] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-24 13:59:48,176 INFO [main] h.j.p.m.Main [Main.java:42] PROGRAM POKRENUT!
+2022-03-24 13:59:50,881 ERROR [main] h.j.p.m.Main [Main.java:64] Pogreška prilikom unosa imena kategorije.
+hr.java.production.exception.InvalidNameException: 
+Ime kategorije je prazno!
+	at hr.java.production.main.Main.unosKategorija(Main.java:282)
+	at hr.java.production.main.Main.main(Main.java:55)
+2022-03-24 13:59:52,135 INFO [main] h.j.p.m.Main [Main.java:69] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-24 14:00:58,356 INFO [main] h.j.p.m.Main [Main.java:42] PROGRAM POKRENUT!
+2022-03-24 14:01:00,741 INFO [main] h.j.p.m.Main [Main.java:69] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-24 14:02:59,790 INFO [main] h.j.p.m.Main [Main.java:42] PROGRAM POKRENUT!
+2022-03-24 14:03:02,848 INFO [main] h.j.p.m.Main [Main.java:69] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-24 14:53:59,598 INFO [main] h.j.p.m.Main [Main.java:43] PROGRAM POKRENUT!
+2022-03-24 14:54:04,462 INFO [main] h.j.p.m.Main [Main.java:70] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-24 14:59:14,695 INFO [main] h.j.p.m.Main [Main.java:43] PROGRAM POKRENUT!
+2022-03-24 14:59:17,465 INFO [main] h.j.p.m.Main [Main.java:70] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-24 15:00:37,676 INFO [main] h.j.p.m.Main [Main.java:43] PROGRAM POKRENUT!
+2022-03-24 15:00:42,330 ERROR [main] h.j.p.m.Main [Main.java:65] Pogreška prilikom unosa imena kategorije.
+hr.java.production.exception.InvalidNameException: 
+Ime kategorije je prazno!
+	at hr.java.production.main.Main.unosKategorija(Main.java:283)
+	at hr.java.production.main.Main.main(Main.java:56)
+2022-03-24 15:00:43,860 INFO [main] h.j.p.m.Main [Main.java:70] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-24 15:01:31,499 ERROR [main] h.j.p.m.Main [Main.java:474] Pogrešno uneseni podaci artikla.
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextBigDecimal(Scanner.java:2740)
+	at hr.java.production.main.Main.unosArtikala(Main.java:452)
+	at hr.java.production.main.Main.main(Main.java:78)
+2022-03-24 15:01:32,005 ERROR [main] h.j.p.m.Main [Main.java:474] Pogrešno uneseni podaci artikla.
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextBigDecimal(Scanner.java:2740)
+	at hr.java.production.main.Main.unosArtikala(Main.java:452)
+	at hr.java.production.main.Main.main(Main.java:78)
+2022-03-24 15:01:32,436 ERROR [main] h.j.p.m.Main [Main.java:474] Pogrešno uneseni podaci artikla.
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextBigDecimal(Scanner.java:2740)
+	at hr.java.production.main.Main.unosArtikala(Main.java:452)
+	at hr.java.production.main.Main.main(Main.java:78)
+2022-03-24 15:01:32,919 ERROR [main] h.j.p.m.Main [Main.java:474] Pogrešno uneseni podaci artikla.
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextBigDecimal(Scanner.java:2740)
+	at hr.java.production.main.Main.unosArtikala(Main.java:452)
+	at hr.java.production.main.Main.main(Main.java:78)
+2022-03-24 15:01:34,055 ERROR [main] h.j.p.m.Main [Main.java:474] Pogrešno uneseni podaci artikla.
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextBigDecimal(Scanner.java:2740)
+	at hr.java.production.main.Main.unosArtikala(Main.java:455)
+	at hr.java.production.main.Main.main(Main.java:78)
+2022-03-24 15:01:34,455 ERROR [main] h.j.p.m.Main [Main.java:474] Pogrešno uneseni podaci artikla.
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextBigDecimal(Scanner.java:2740)
+	at hr.java.production.main.Main.unosArtikala(Main.java:452)
+	at hr.java.production.main.Main.main(Main.java:78)
+2022-03-24 15:01:34,805 ERROR [main] h.j.p.m.Main [Main.java:474] Pogrešno uneseni podaci artikla.
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextBigDecimal(Scanner.java:2740)
+	at hr.java.production.main.Main.unosArtikala(Main.java:452)
+	at hr.java.production.main.Main.main(Main.java:78)
+2022-03-24 15:01:35,203 ERROR [main] h.j.p.m.Main [Main.java:474] Pogrešno uneseni podaci artikla.
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextBigDecimal(Scanner.java:2740)
+	at hr.java.production.main.Main.unosArtikala(Main.java:452)
+	at hr.java.production.main.Main.main(Main.java:78)
+2022-03-24 15:01:35,574 ERROR [main] h.j.p.m.Main [Main.java:474] Pogrešno uneseni podaci artikla.
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextBigDecimal(Scanner.java:2740)
+	at hr.java.production.main.Main.unosArtikala(Main.java:452)
+	at hr.java.production.main.Main.main(Main.java:78)
+2022-03-24 15:01:35,915 ERROR [main] h.j.p.m.Main [Main.java:474] Pogrešno uneseni podaci artikla.
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextBigDecimal(Scanner.java:2740)
+	at hr.java.production.main.Main.unosArtikala(Main.java:452)
+	at hr.java.production.main.Main.main(Main.java:78)
+2022-03-28 21:40:36,254 INFO [main] h.j.p.m.Main [Main.java:41] PROGRAM POKRENUT!
+2022-03-28 21:40:40,112 INFO [main] h.j.p.m.Main [Main.java:68] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-28 21:49:30,786 INFO [main] h.j.p.m.Main [Main.java:41] PROGRAM POKRENUT!
+2022-03-28 21:49:36,589 INFO [main] h.j.p.m.Main [Main.java:68] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-28 21:55:59,261 INFO [main] h.j.p.m.Main [Main.java:41] PROGRAM POKRENUT!
+2022-03-28 21:56:02,727 INFO [main] h.j.p.m.Main [Main.java:68] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-28 21:56:40,932 INFO [main] h.j.p.m.Main [Main.java:80] ZAVRŠEN UNOS ARTIKALA!
+2022-03-28 22:40:58,436 INFO [main] h.j.p.m.Main [Main.java:41] PROGRAM POKRENUT!
+2022-03-28 22:41:00,754 ERROR [main] h.j.p.m.Main [Main.java:57] Došlo je do ponovnog unosa iste kategorije.
+hr.java.production.exception.DuplicateCategoryException: Unesena kategorija koja već postoji!!!
+	at hr.java.production.main.Main.unosKategorija(Main.java:291)
+	at hr.java.production.main.Main.main(Main.java:53)
+2022-03-28 22:41:01,466 ERROR [main] h.j.p.m.Main [Main.java:57] Došlo je do ponovnog unosa iste kategorije.
+hr.java.production.exception.DuplicateCategoryException: Unesena kategorija koja već postoji!!!
+	at hr.java.production.main.Main.unosKategorija(Main.java:291)
+	at hr.java.production.main.Main.main(Main.java:53)
+2022-03-28 22:41:03,731 INFO [main] h.j.p.m.Main [Main.java:67] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-28 22:41:52,878 INFO [main] h.j.p.m.Main [Main.java:79] ZAVRŠEN UNOS ARTIKALA!
+2022-03-29 19:35:51,648 INFO [main] h.j.p.m.Main [Main.java:41] PROGRAM POKRENUT!
+2022-03-29 19:35:57,489 INFO [main] h.j.p.m.Main [Main.java:67] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-29 19:36:05,788 INFO [main] h.j.p.m.Main [Main.java:79] ZAVRŠEN UNOS ARTIKALA!
+2022-03-29 19:36:21,124 INFO [main] h.j.p.m.Main [Main.java:90] ZAVRŠEN UNOS TVORNICA!
+2022-03-29 19:36:27,231 ERROR [main] h.j.p.m.Main [Main.java:714] Pogrešno unesen format web adresa trgovine.
+java.net.MalformedURLException: no protocol: 1
+	at java.base/java.net.URL.<init>(URL.java:674)
+	at java.base/java.net.URL.<init>(URL.java:569)
+	at java.base/java.net.URL.<init>(URL.java:516)
+	at hr.java.production.main.Main.unosTrgovina(Main.java:706)
+	at hr.java.production.main.Main.main(Main.java:98)
+2022-03-29 19:36:50,091 INFO [main] h.j.p.m.Main [Main.java:101] ZAVRŠEN UNOS TRGOVINA!
+2022-03-29 19:36:50,091 INFO [main] h.j.p.m.Main [Main.java:103] POČETAK ISPISA PODATAKA!
+2022-03-29 19:36:50,091 INFO [main] h.j.p.m.Main [Main.java:226] KRAJ PROGRAMA!
+2022-03-30 06:23:39,234 INFO [main] h.j.p.m.Main [Main.java:43] PROGRAM POKRENUT!
+2022-03-30 06:23:43,571 ERROR [main] h.j.p.m.Main [Main.java:64] Pogreška prilikom unosa imena kategorije.
+hr.java.production.exception.InvalidNameException: 
+Ime kategorije je prazno!
+	at hr.java.production.main.Main.unosKategorija(Main.java:313)
+	at hr.java.production.main.Main.main(Main.java:55)
+2022-03-30 06:23:45,129 INFO [main] h.j.p.m.Main [Main.java:69] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-30 06:24:50,100 INFO [main] h.j.p.m.Main [Main.java:80] ZAVRŠEN UNOS ARTIKALA!
+2022-03-30 06:27:55,831 INFO [main] h.j.p.m.Main [Main.java:43] PROGRAM POKRENUT!
+2022-03-30 06:27:59,547 INFO [main] h.j.p.m.Main [Main.java:69] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-30 06:28:57,316 INFO [main] h.j.p.m.Main [Main.java:80] ZAVRŠEN UNOS ARTIKALA!
+2022-03-30 06:33:16,442 INFO [main] h.j.p.m.Main [Main.java:43] PROGRAM POKRENUT!
+2022-03-30 06:33:28,176 INFO [main] h.j.p.m.Main [Main.java:69] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-30 06:34:24,041 INFO [main] h.j.p.m.Main [Main.java:80] ZAVRŠEN UNOS ARTIKALA!
+2022-03-30 06:43:33,428 INFO [main] h.j.p.m.Main [Main.java:45] PROGRAM POKRENUT!
+2022-03-30 06:43:37,039 INFO [main] h.j.p.m.Main [Main.java:71] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-30 06:44:24,851 INFO [main] h.j.p.m.Main [Main.java:82] ZAVRŠEN UNOS ARTIKALA!
+2022-03-30 06:54:57,314 INFO [main] h.j.p.m.Main [Main.java:45] PROGRAM POKRENUT!
+2022-03-30 06:55:00,945 INFO [main] h.j.p.m.Main [Main.java:71] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-30 06:55:30,358 INFO [main] h.j.p.m.Main [Main.java:81] ZAVRŠEN UNOS ARTIKALA!
+2022-03-30 16:26:42,390 INFO [main] h.j.p.m.Main [Main.java:45] PROGRAM POKRENUT!
+2022-03-30 16:26:46,718 INFO [main] h.j.p.m.Main [Main.java:71] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-30 16:26:59,824 INFO [main] h.j.p.m.Main [Main.java:81] ZAVRŠEN UNOS ARTIKALA!
+2022-03-30 16:28:44,477 INFO [main] h.j.p.m.Main [Main.java:45] PROGRAM POKRENUT!
+2022-03-30 16:28:48,286 INFO [main] h.j.p.m.Main [Main.java:71] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-30 16:28:56,093 INFO [main] h.j.p.m.Main [Main.java:81] ZAVRŠEN UNOS ARTIKALA!
+2022-03-30 17:28:12,387 INFO [main] h.j.p.m.Main [Main.java:45] PROGRAM POKRENUT!
+2022-03-30 17:28:15,932 ERROR [main] h.j.p.m.Main [Main.java:66] Pogreška prilikom unosa imena kategorije.
+hr.java.production.exception.InvalidNameException: 
+Ime kategorije je prazno!
+	at hr.java.production.main.Main.unosKategorija(Main.java:325)
+	at hr.java.production.main.Main.main(Main.java:57)
+2022-03-30 17:28:17,047 INFO [main] h.j.p.m.Main [Main.java:71] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-30 17:28:49,385 INFO [main] h.j.p.m.Main [Main.java:81] ZAVRŠEN UNOS ARTIKALA!
+2022-03-30 17:33:04,843 INFO [main] h.j.p.m.Main [Main.java:45] PROGRAM POKRENUT!
+2022-03-30 17:33:10,987 INFO [main] h.j.p.m.Main [Main.java:71] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-30 17:33:49,322 INFO [main] h.j.p.m.Main [Main.java:81] ZAVRŠEN UNOS ARTIKALA!
+2022-03-30 17:34:56,177 INFO [main] h.j.p.m.Main [Main.java:45] PROGRAM POKRENUT!
+2022-03-30 17:35:00,117 INFO [main] h.j.p.m.Main [Main.java:71] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-30 17:37:04,113 INFO [main] h.j.p.m.Main [Main.java:45] PROGRAM POKRENUT!
+2022-03-30 17:37:07,610 INFO [main] h.j.p.m.Main [Main.java:71] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-30 17:37:57,517 INFO [main] h.j.p.m.Main [Main.java:81] ZAVRŠEN UNOS ARTIKALA!
+2022-03-30 17:39:26,770 INFO [main] h.j.p.m.Main [Main.java:45] PROGRAM POKRENUT!
+2022-03-30 17:39:29,766 INFO [main] h.j.p.m.Main [Main.java:71] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-30 17:46:09,803 INFO [main] h.j.p.m.Main [Main.java:45] PROGRAM POKRENUT!
+2022-03-30 17:46:13,541 INFO [main] h.j.p.m.Main [Main.java:71] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-30 17:46:47,775 INFO [main] h.j.p.m.Main [Main.java:81] ZAVRŠEN UNOS ARTIKALA!
+2022-03-30 17:46:58,748 ERROR [main] h.j.p.m.Main [Main.java:737] Ponovo odabran isti artikl tvornice
+hr.java.production.exception.DuplicateItemException: Dogodila se pogreška u radu programa!
+	at hr.java.production.main.Main.unosTvornica(Main.java:723)
+	at hr.java.production.main.Main.main(Main.java:91)
+2022-03-30 18:01:23,766 INFO [main] h.j.p.m.Main [Main.java:45] PROGRAM POKRENUT!
+2022-03-30 18:01:28,281 INFO [main] h.j.p.m.Main [Main.java:71] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-30 18:03:27,065 INFO [main] h.j.p.m.Main [Main.java:81] ZAVRŠEN UNOS ARTIKALA!
+2022-03-30 18:05:38,886 INFO [main] h.j.p.m.Main [Main.java:45] PROGRAM POKRENUT!
+2022-03-30 18:05:43,082 INFO [main] h.j.p.m.Main [Main.java:71] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-30 18:07:01,422 INFO [main] h.j.p.m.Main [Main.java:81] ZAVRŠEN UNOS ARTIKALA!
+2022-03-30 18:13:04,582 INFO [main] h.j.p.m.Main [Main.java:45] PROGRAM POKRENUT!
+2022-03-30 18:13:08,573 INFO [main] h.j.p.m.Main [Main.java:71] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-30 18:13:55,067 INFO [main] h.j.p.m.Main [Main.java:81] ZAVRŠEN UNOS ARTIKALA!
+2022-03-30 19:26:46,115 INFO [main] h.j.p.m.Main [Main.java:45] PROGRAM POKRENUT!
+2022-03-30 19:26:50,411 INFO [main] h.j.p.m.Main [Main.java:71] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-30 19:28:33,558 INFO [main] h.j.p.m.Main [Main.java:81] ZAVRŠEN UNOS ARTIKALA!
+2022-03-30 19:30:46,981 INFO [main] h.j.p.m.Main [Main.java:45] PROGRAM POKRENUT!
+2022-03-30 19:30:50,846 INFO [main] h.j.p.m.Main [Main.java:71] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-30 19:31:58,539 INFO [main] h.j.p.m.Main [Main.java:81] ZAVRŠEN UNOS ARTIKALA!
+2022-03-30 20:29:11,816 ERROR [main] h.j.p.m.Main [Main.java:760] Ponovo odabran isti artikl tvornice
+hr.java.production.exception.DuplicateItemException: Dogodila se pogreška u radu programa!
+	at hr.java.production.main.Main.unosTvornica(Main.java:746)
+	at hr.java.production.main.Main.main(Main.java:139)
+2022-03-30 20:39:12,929 INFO [main] h.j.p.m.Main [Main.java:41] PROGRAM POKRENUT!
+2022-03-30 20:39:15,894 INFO [main] h.j.p.m.Main [Main.java:67] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-30 20:39:59,467 INFO [main] h.j.p.m.Main [Main.java:77] ZAVRŠEN UNOS ARTIKALA!
+2022-03-30 20:40:44,446 INFO [main] h.j.p.m.Main [Main.java:138] ZAVRŠEN UNOS TVORNICA!
+2022-03-31 06:58:01,200 INFO [main] h.j.p.m.Main [Main.java:43] PROGRAM POKRENUT!
+2022-03-31 06:58:22,792 INFO [main] h.j.p.m.Main [Main.java:69] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-31 07:00:48,609 INFO [main] h.j.p.m.Main [Main.java:79] ZAVRŠEN UNOS ARTIKALA!
+2022-03-31 07:01:15,575 INFO [main] h.j.p.m.Main [Main.java:137] ZAVRŠEN UNOS TVORNICA!
+2022-03-31 07:01:21,262 ERROR [main] h.j.p.m.Main [Main.java:793] Pogrešno unesen format web adresa trgovine.
+java.net.MalformedURLException: no protocol: 1
+	at java.base/java.net.URL.<init>(URL.java:674)
+	at java.base/java.net.URL.<init>(URL.java:569)
+	at java.base/java.net.URL.<init>(URL.java:516)
+	at hr.java.production.main.Main.unosTrgovina(Main.java:785)
+	at hr.java.production.main.Main.main(Main.java:155)
+2022-03-31 07:01:50,299 INFO [main] h.j.p.m.Main [Main.java:158] ZAVRŠEN UNOS TRGOVINA!
+2022-03-31 07:01:50,302 INFO [main] h.j.p.m.Main [Main.java:185] POČETAK ISPISA PODATAKA!
+2022-03-31 07:01:50,302 INFO [main] h.j.p.m.Main [Main.java:287] KRAJ PROGRAMA!
+2022-03-31 07:18:50,305 INFO [main] h.j.p.m.Main [Main.java:41] PROGRAM POKRENUT!
+2022-03-31 07:18:54,126 ERROR [main] h.j.p.m.Main [Main.java:62] Pogreška prilikom unosa imena kategorije.
+hr.java.production.exception.InvalidNameException: 
+Ime kategorije je prazno!
+	at hr.java.production.main.Main.unosKategorija(Main.java:343)
+	at hr.java.production.main.Main.main(Main.java:53)
+2022-03-31 07:18:55,624 INFO [main] h.j.p.m.Main [Main.java:67] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-31 07:19:01,866 ERROR [main] h.j.p.m.Main [Main.java:408] Pogrešno odabran artikl.
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at hr.java.production.main.Main.unosArtikala(Main.java:397)
+	at hr.java.production.main.Main.main(Main.java:75)
+2022-03-31 07:20:26,368 INFO [main] h.j.p.m.Main [Main.java:77] ZAVRŠEN UNOS ARTIKALA!
+2022-03-31 07:21:00,924 INFO [main] h.j.p.m.Main [Main.java:134] ZAVRŠEN UNOS TVORNICA!
+2022-03-31 07:21:08,648 ERROR [main] h.j.p.m.Main [Main.java:793] Pogrešno unesen format web adresa trgovine.
+java.net.MalformedURLException: no protocol: Item najjftinijiArtiklKategorije=Collections.min(artikliKategorije);
+	at java.base/java.net.URL.<init>(URL.java:674)
+	at java.base/java.net.URL.<init>(URL.java:569)
+	at java.base/java.net.URL.<init>(URL.java:516)
+	at hr.java.production.main.Main.unosTrgovina(Main.java:785)
+	at hr.java.production.main.Main.main(Main.java:152)
+2022-03-31 07:21:08,650 ERROR [main] h.j.p.m.Main [Main.java:793] Pogrešno unesen format web adresa trgovine.
+java.net.MalformedURLException: no protocol:             System.out.println("Najjeftiniji artikl kategorije " +ispis.getKey().getName().toUpperCase() +" je " +najjftinijiArtiklKategorije.getName().toUpperCase()+ ", cijena: " + najjftinijiArtiklKategorije.getCijenaSPopustom()+"kn.");
+	at java.base/java.net.URL.<init>(URL.java:674)
+	at java.base/java.net.URL.<init>(URL.java:569)
+	at java.base/java.net.URL.<init>(URL.java:516)
+	at hr.java.production.main.Main.unosTrgovina(Main.java:785)
+	at hr.java.production.main.Main.main(Main.java:152)
+2022-03-31 07:21:35,033 INFO [main] h.j.p.m.Main [Main.java:155] ZAVRŠEN UNOS TRGOVINA!
+2022-03-31 07:21:35,036 INFO [main] h.j.p.m.Main [Main.java:185] POČETAK ISPISA PODATAKA!
+2022-03-31 07:21:35,036 INFO [main] h.j.p.m.Main [Main.java:287] KRAJ PROGRAMA!
+2022-03-31 07:28:35,427 INFO [main] h.j.p.m.Main [Main.java:42] PROGRAM POKRENUT!
+2022-03-31 07:28:40,155 INFO [main] h.j.p.m.Main [Main.java:68] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-31 07:31:17,017 INFO [main] h.j.p.m.Main [Main.java:78] ZAVRŠEN UNOS ARTIKALA!
+2022-03-31 07:31:37,940 INFO [main] h.j.p.m.Main [Main.java:135] ZAVRŠEN UNOS TVORNICA!
+2022-03-31 07:31:43,865 ERROR [main] h.j.p.m.Main [Main.java:795] Pogrešno unesen format web adresa trgovine.
+java.net.MalformedURLException: no protocol: 
+	at java.base/java.net.URL.<init>(URL.java:674)
+	at java.base/java.net.URL.<init>(URL.java:569)
+	at java.base/java.net.URL.<init>(URL.java:516)
+	at hr.java.production.main.Main.unosTrgovina(Main.java:787)
+	at hr.java.production.main.Main.main(Main.java:153)
+2022-03-31 07:32:05,493 INFO [main] h.j.p.m.Main [Main.java:156] ZAVRŠEN UNOS TRGOVINA!
+2022-03-31 07:32:05,493 INFO [main] h.j.p.m.Main [Main.java:158] POČETAK ISPISA PODATAKA!
+2022-03-31 07:32:05,500 INFO [main] h.j.p.m.Main [Main.java:289] KRAJ PROGRAMA!
+2022-03-31 08:29:49,596 INFO [main] h.j.p.m.Main [Main.java:43] PROGRAM POKRENUT!
+2022-03-31 08:30:10,582 INFO [main] h.j.p.m.Main [Main.java:69] ZAVRŠEN UNOS KATEGORIJA!
+2022-03-31 08:33:15,382 INFO [main] h.j.p.m.Main [Main.java:79] ZAVRŠEN UNOS ARTIKALA!
+2022-03-31 08:33:15,382 INFO [main] h.j.p.m.Main [Main.java:82] ISPIS SVIH ARTIKALA!
+2022-03-31 08:33:51,454 INFO [main] h.j.p.m.Main [Main.java:139] ZAVRŠEN UNOS TVORNICA!
+2022-03-31 08:34:01,626 ERROR [main] h.j.p.m.Main [Main.java:814] Pogrešno unesen format web adresa trgovine.
+java.net.MalformedURLException: no protocol: g
+	at java.base/java.net.URL.<init>(URL.java:674)
+	at java.base/java.net.URL.<init>(URL.java:569)
+	at java.base/java.net.URL.<init>(URL.java:516)
+	at hr.java.production.main.Main.unosTrgovina(Main.java:806)
+	at hr.java.production.main.Main.main(Main.java:157)
+2022-03-31 08:34:25,537 INFO [main] h.j.p.m.Main [Main.java:160] ZAVRŠEN UNOS TRGOVINA!
+2022-03-31 08:34:25,537 INFO [main] h.j.p.m.Main [Main.java:163] POČETAK ISPISA PODATAKA!
+2022-03-31 08:34:25,542 INFO [main] h.j.p.m.Main [Main.java:308] KRAJ PROGRAMA!
+2022-05-21 23:00:23,374 INFO [main] h.j.p.m.Main [Main.java:43] PROGRAM POKRENUT!
+2022-05-21 23:00:30,293 INFO [main] h.j.p.m.Main [Main.java:69] ZAVRŠEN UNOS KATEGORIJA!
+2022-05-21 23:00:47,106 ERROR [main] h.j.p.m.Main [Main.java:523] Pogrešno odabrana kategorija artikla.
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at hr.java.production.main.Main.unosArtikala(Main.java:512)
+	at hr.java.production.main.Main.main(Main.java:77)
+2022-05-21 23:00:51,073 ERROR [main] h.j.p.m.Main [Main.java:559] Pogrešno uneseni podaci artikla.
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextBigDecimal(Scanner.java:2740)
+	at hr.java.production.main.Main.unosArtikala(Main.java:537)
+	at hr.java.production.main.Main.main(Main.java:77)
